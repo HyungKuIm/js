@@ -1,7 +1,8 @@
 import {RecoilRoot} from 'recoil';
 
 import CharacterCounter from './components/CharacterCounter';
-
+import TodoList from './components/TodoList';
+import TodoInput from './components/TodoInput';
 
 
 function App() {
@@ -9,8 +10,8 @@ function App() {
 
   return (
     <RecoilRoot>
-      <div>리코일 상태관리자 연습중입니다.</div>
-      <CharacterCounter />
+      <TodoInput />
+      <TodoList />
     </RecoilRoot>
   );
 }
